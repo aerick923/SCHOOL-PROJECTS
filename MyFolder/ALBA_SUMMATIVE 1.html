@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html> 
+
+<head> 
+
+    <title> BOY BAWANG INVENTORY SYSTEMS </title> 
+    <style>
+    
+    table 
+    {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    
+    th, td 
+    {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    
+    th 
+    {
+      background-color: #0074cc;
+      color: white;
+    }
+    
+    .header-title 
+    {
+      background-color: #0074cc;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    
+    .supplier 
+    {
+      background-color: #ffd966;
+      font-weight: bold;
+    }
+    
+    .low-stock 
+    {
+      color: red;
+    }
+
+  </style>
+
+</head> 
+
+<body> 
+
+<h2 style="text-align:center;">INVENTORY SYSTEMS</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>Supplier</th>
+        <th>Date</th>
+        <th>Image</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>10001</td>
+        <td>Boy Bawang Adobo (pc)</td>
+        <td>1000</td>
+        <td rowspan="8" class="supplier">KSK</td>
+        <td>5/14/2019</td>
+        <td rowspan="8"><img src="https://ever.ph/cdn/shop/files/100000003412-Boy-Bawang-Cornick-Garlic-90g-210712_da10399a-149f-4ee3-952a-18c56640dd7e.jpg?v=1736054023" 
+            alt="Boy Bawang Cornick" width="200" height="300"> </td>
+      </tr>
+      <tr>
+        <td>10002</td>
+        <td>Boy Bawang Adobo (pack)</td>
+        <td>200</td>
+        <td>5/14/2019</td>
+      </tr>
+      <tr>
+        <td>10003</td>
+        <td>Boy Bawang Garlic (pc)</td>
+        <td>3000</td>
+        <td>5/15/2019</td>
+      </tr>
+      <tr>
+        <td>10004</td>
+        <td>Boy Bawang Garlic (pack)</td>
+        <td class="low-stock">150</td>
+        <td>5/15/2019</td>
+      </tr>
+      <tr>
+        <td>10005</td>
+        <td>Boy Bawang Spicy (pc)</td>
+        <td>4000</td>
+        <td>5/16/2019</td>
+      </tr>
+      <tr>
+        <td>10006</td>
+        <td>Boy Bawang Spicy (pack)</td>
+        <td>240</td>
+        <td>5/16/2019</td>
+      </tr>
+      <tr>
+        <td>10007</td>
+        <td>Boy Bawang BBQ (pc)</td>
+        <td>3000</td>
+        <td>5/17/2019</td>
+      </tr>
+      <tr>
+        <td>10008</td>
+        <td>Boy Bawang BBQ (pack)</td>
+        <td>210</td>
+        <td>5/17/2019</td>
+      </tr>
+    </tbody>
+  </table>
+
+<hr>
+
+<h2>Contact Form</h2>
+<form>
+<ul>
+<p>
+    <label>Your Name* </label> <br>
+    <input type="text" name="name" required>
+</p>
+
+<p>
+<label>Email* </label> <br>
+<input type="email" name="email" required>
+</p>
+
+<p>
+<label>Contact No.* </label> <br>
+<input type="text" name="contact" required>
+</p>
+         
+<p>
+<label>Message </label> <br>
+<textarea name="message" rows="5" cols="30"></textarea>
+</p>
+
+<li> <small>required field</small> </li>
+
+<p>
+<button type="submit">Send</button>
+</p>
+
+</ul>
+
+</form>
+
+</body>
+
+</html> 
